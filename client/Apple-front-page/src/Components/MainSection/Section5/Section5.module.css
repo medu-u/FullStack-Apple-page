@@ -1,0 +1,60 @@
+/* --- Left Side (Apple TV+) --- */
+.left-side-container {
+  background-image: url("../../../assets/images/home/actors.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 0 0 10px 0; /* Mobile margin */
+  background-size: cover;
+}
+
+.tvshow-logo-wraper {
+  padding: 340px 0 0px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+  color: #fff;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144"; /* Play icon */
+  padding-left: 15px;
+}
+
+/* --- Right Side (Apple Watch) --- */
+.right-side-container {
+  background-image: url("../../../assets/images/home/watch.jpg");
+  background-color: #fbfbfd;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 0 0 10px 0;
+  background-size: auto;
+}
+
+.description-wraper {
+  max-width: 450px;
+  margin: 7px auto;
+}
+.links-wrapper {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+/* --- Right Side (Apple Card) --- */
+
+.right-side-container .title-wraper {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+
+/* --- Media Query: Tablet/Desktop Spacing --- */
+@media (min-width: 768px) {
+  .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+  }
+  .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+  }
+}

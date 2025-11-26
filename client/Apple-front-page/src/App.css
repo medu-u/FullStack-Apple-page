@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,600,600i,700,700i,800,800i,900,900i&display=swap");
+
+/* General Styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #06c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.bold {
+  font-weight: 600;
+}
+.new-alert {
+  color: #bf4801;
+  font-size: 14px;
+}
+
+
+/* Common Section Container Styles */
+.left-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.right-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+/* Common Wrapper Styles for Highlight Sections (e.g., .left-side-wrapper) */
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* Title and Description Common Styles */
+.title-wraper {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.title-wraper .bold {
+  font-weight: 600;
+  font-size: 32px; /* Default for mobile */
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+}
+.description-wrapper {
+  font-size: 20px;
+  padding: 10px 0;
+}
+.links-wrapper {
+  padding: 15px 0;
+}
+.links-wrapper ul {
+  list-style: none;
+  padding-inline-start: 0; /* Override default list padding */
+}
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  /* Override the default global link color for section links */
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+}
+.links-wrapper ul li a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+/* Media Query Adjustments for Common Styles */
+@media (min-width: 768px) {
+  .titleWrapperBold {
+    font-size: 56px;
+  }
+  .newAlert {
+    font-size: 18px;
+  }
+}
+
+/* for footer accordion */
+.iconToggler:after {
+  content: "\f068" !important;
+}

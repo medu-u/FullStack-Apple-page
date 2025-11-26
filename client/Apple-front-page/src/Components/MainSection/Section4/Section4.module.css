@@ -1,0 +1,52 @@
+.fourth-heghlight-wrapper {
+	margin-bottom: 10px;
+}
+
+.left-side-container{
+	background-image:  url("../../../assets/images/home/iphone11-colored.jpg"); 
+	background-color: white;
+	padding-top: 35px;
+	margin: 0 0 10px 0;
+	background-size: cover;		
+}
+
+/* --> Right Side (COVID-19 PSA) <-- */
+
+.right-side-container{
+	background-image:  url("../../../assets/images/home/apple-blue-logo.jpg"); 
+	background-color: #165ca9;
+	background-position: bottom;
+	padding-top: 35px;
+	margin: 0 0 10px 0; 
+	background-size: auto;	
+}
+
+.right-side-container .title-wraper {
+    max-width: 380px;
+		margin: 0 auto;
+}
+
+.links-wrapper.white li a {
+	color: #fff;
+}
+
+.description-wraper {
+	font-size: 26px; 
+	padding: 10px 0;
+}
+
+.price-wrapper {
+    font-size: 17px;
+    padding: 5px 0 10px;
+}
+
+
+/* --- Media Query: Tablet/Desktop Spacing --- */
+@media (min-width: 768px) {
+	.left-side-wrapper .left-side-container {
+	    margin: 10px 5px 5px 10px;
+	}
+	.right-side-wrapper .right-side-container {
+	    margin: 10px 10px 5px 5px;
+	}		
+}

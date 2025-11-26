@@ -1,0 +1,45 @@
+.youtubeVideosWrapper {
+  width: 100%;
+  padding: 10px 0;
+  /* light background */
+}
+
+.allVideoWrapper {
+  width: 100%;
+}
+
+.titleWrapper {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.videoThumbnail img {
+  width: 100%;
+  display: block;
+}
+
+.videoTitle {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+  color: #333;
+}

@@ -1,0 +1,67 @@
+.secondHightLightWrapper {
+  height: 580px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-color: #fbfbfd;
+  text-align: center;
+  padding: 65px 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.newAlertN {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.titleWrapperBold {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  color: #1d1d1d;
+}
+.linkWrapper {
+  padding: 15px 0;
+}
+.linkWrapper ul {
+  list-style: none;
+}
+.linkWrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.linkWrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 21px;
+}
+.linkWrapper ul li a:hover {
+  color: #000;
+}
+.linkWrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+.descriptionWrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.priceWrapper {
+  font-size: 17px;
+  padding: 5px 0 10px;
+}
+@media (min-width: 768px) {
+  .secondHightLightWrapper {
+    min-height: 692px;
+  }
+  .titleWrapperBold {
+    font-size: 64px;
+  }
+  .newAlertN {
+    color: #bf4801;
+    font-size: 18px;
+  }
+}

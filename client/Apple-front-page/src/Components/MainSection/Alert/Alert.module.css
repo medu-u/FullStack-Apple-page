@@ -1,0 +1,20 @@
+.alertSection {
+  text-align: center;
+  padding: 20px;
+}
+.alertTitle {
+  font-weight: 600;
+  color: #1d1d1f;
+  padding: 10px;
+}
+.alertText {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .alertText {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+}

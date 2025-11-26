@@ -1,0 +1,60 @@
+.youtubeVideosWrapper {
+  width: 100%;
+  padding: 5px 0;
+  /* light background */
+}
+
+.allVideoWrapper {
+  width: 100%;
+}
+
+.titleWrapper {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.videoThumbnail img {
+  width: 100%;
+  display: block;
+}
+
+.videoTitle {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px;
+  color: #333;
+}
+.videoTitle :hover {
+ color: black;
+}
+.videoDesc {
+  font-size: 8px;
+  color: #515154;
+  margin-top: 2px;
+}
+
+.productionDate {
+  font-size: 9px;
+  color: #6e6e73;
+  font-weight: 400;
+  margin-top: 1px;
+}
