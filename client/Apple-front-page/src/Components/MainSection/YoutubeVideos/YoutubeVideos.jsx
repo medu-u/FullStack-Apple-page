@@ -9,7 +9,7 @@ function YoutubeVideos() {
 
   useEffect(() => {
     fetch(
-      `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${APPLE_CHANNEL_ID}&part=snippet&order=date&maxResults=9`
+      `https://www.googleapis.com/youtube/v3/search?key=${API_KEY}&channelId=${APPLE_CHANNEL_ID}&part=snippet&order=date&maxResults=6`
     )
       .then((res) => res.json())
       .then((data) => {
