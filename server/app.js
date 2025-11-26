@@ -234,32 +234,6 @@ app.post("/add-product", (req, res) => {
   insertProduct();
 });
 
-// app.get("/iphones", (req, res) => {
-//   connection.query(
-//     "SELECT * FROM Products JOIN ProductDescription JOIN ProductPrice JOIN Orders JOIN Users ON Products.product_id = ProductDescription.product_id AND Products.product_id = ProductPrice.product_id",
-//     (err, rows) => {
-//       if (err) {
-//         console.log(err);
-//         return res.status(500).send("Database error");
-//       }
-
-//       // ✅ REMOVE DUPLICATE PRODUCTS USING product_id
-//       const uniqueProducts = [];
-//       const seen = new Set();
-
-//       rows.forEach((item) => {
-//         if (!seen.has(item.product_id)) {
-//           seen.add(item.product_id);
-//           uniqueProducts.push(item);
-//         }
-//       });
-
-//       // ✅ Send clean data to React
-//       res.json({ products: uniqueProducts });
-//     }
-//   );
-// });
-
 app.get('/iphones',(req, res) => {
   connection.query(
     "SELECT * FROM Products JOIN ProductDescription JOIN ProductPrice ON Products.product_id = ProductDescription.product_id AND Products.product_id = ProductPrice.product_id",(err, rows, fields) => {
@@ -267,7 +241,7 @@ app.get('/iphones',(req, res) => {
       iphones.products = rows;
       var stringIphones = JSON.stringify(iphones);
       if(!err) res.end(stringIphones);
-      else console.log(err);
+      else console.log("Error Occured");
     }
 
   );
