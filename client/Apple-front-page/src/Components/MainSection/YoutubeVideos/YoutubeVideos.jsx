@@ -31,7 +31,7 @@ function YoutubeVideos() {
               </div>
             </div>
 
-            {youTubeVideos.map((singleVideo) => {
+            {youTubeVideos?.map((singleVideo) => {
               let vidId = singleVideo.id.videoId;
               let vidLink = `https://www.youtube.com/watch?v=${vidId}`;
               let videoWrapper = (

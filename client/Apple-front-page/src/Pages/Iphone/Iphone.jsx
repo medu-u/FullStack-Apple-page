@@ -124,13 +124,13 @@ function Iphone() {
                     {product.product_brief_description}
                   </div>
                   <div className="starting-price">
-                    Starting at {product.starting_price}
+                   {` Starting at ${product.starting_price}`}
                   </div>
                   <div className="monthlt-price">{product.price_range}</div>
                   <div className="links-wrapper">
                     <ul>
                       <li>
-                        <Link to={`/iphone/${product.product_url}`}>
+                        <Link to={`/iphone/${product.product_id}`}>
                           Learn more
                         </Link>
                       </li>

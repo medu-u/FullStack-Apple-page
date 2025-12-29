@@ -1,9 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Nav from "./Components/Nav/Nav";
 import MainSection from "./Components/MainSection/MainSection";
-import Footer from "./Components/Footer/Footer";
 
 import Mac from "./Pages/Mac/Mac";
 import Iphone from "./Pages/Iphone/Iphone";
@@ -16,6 +14,7 @@ import Product from "./Pages/Product/Product";
 import Carts from "./Pages/Carts/Carts";
 import Four04 from "./Pages/Four04/Four04";
 import SharedLayout from "./Components/SharedLayout/SharedLayout ";
+import ProductPage from "./Pages/ProductPage/ProductPage";
 
 function App() {
   return (
@@ -24,6 +23,7 @@ function App() {
         <Route index element={<MainSection />} />
         <Route path="mac" element={<Mac />} />
         <Route path="iphone" element={<Iphone />} />
+        <Route path="iphone/:productID" element={<ProductPage />} />
         <Route path="ipad" element={<Ipad />} />
         <Route path="watch" element={<Watch />} />
         <Route path="tv" element={<Tv />} />
